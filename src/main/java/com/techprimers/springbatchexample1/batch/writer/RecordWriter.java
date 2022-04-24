@@ -8,12 +8,12 @@ import org.springframework.stereotype.Component;
 
 import java.util.List;
 
-@Component("RecordConsoleWriter")
-public class RecordConsoleWriter implements ItemWriter<Record> {
-    private final static Logger LOGGER = LoggerFactory.getLogger(RecordConsoleWriter.class);
+@Component("RecordWriter")
+public class RecordWriter implements ItemWriter<Record> {
+    private final static Logger LOGGER = LoggerFactory.getLogger(RecordWriter.class);
 
     @Override
     public void write(List<? extends Record> records) {
-        LOGGER.info(String.format("RecordConsoleWriter: writing %s records", records.size()));
+        LOGGER.info(String.format("RecordWriter: writing %s records", records.size()));
     }
 }

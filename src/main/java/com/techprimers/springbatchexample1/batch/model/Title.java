@@ -1,10 +1,10 @@
 package com.techprimers.springbatchexample1.batch.model;
 
-public class EHoldingsTitle {
+public class Title {
     private int id;
     private String name;
 
-    public EHoldingsTitle(int id, String name) {
+    public Title(int id, String name) {
         this.id = id;
         this.name = name;
     }

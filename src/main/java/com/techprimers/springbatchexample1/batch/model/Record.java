@@ -1,12 +1,12 @@
 package com.techprimers.springbatchexample1.batch.model;
 
-public class EHoldingsRecord {
+public class Record {
     private int packageId;
     private String packageName;
     private int titleId;
     private String titleName;
 
-    public EHoldingsRecord(Package aPackage, Title title) {
+    public Record(Package aPackage, Title title) {
         if (aPackage != null) {
             this.packageId = aPackage.getId();
             this.packageName = aPackage.getName();
