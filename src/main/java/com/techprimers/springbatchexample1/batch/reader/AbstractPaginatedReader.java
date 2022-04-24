@@ -6,16 +6,15 @@ import org.springframework.batch.item.support.AbstractItemCountingItemStreamItem
 import java.util.List;
 import java.util.UUID;
 
-public abstract class AbstractReader<T> extends AbstractItemCountingItemStreamItemReader<T> {
+public abstract class AbstractPaginatedReader<T> extends AbstractItemCountingItemStreamItemReader<T> {
 
     private int currentOffset;
     private List<T> currentChunk;
     private int currentChunkOffset;
 
-    protected AbstractReader() {
+    protected AbstractPaginatedReader() {
         currentOffset = 0;
         setCurrentItemCount(0);
-        setMaxItemCount(Constants.READER_HTTP_REQUEST_QUANTITY);
         setSaveState(false);
         setExecutionContextName(getClass().getSimpleName() + '_' + UUID.randomUUID());
     }
@@ -37,7 +36,7 @@ public abstract class AbstractReader<T> extends AbstractItemCountingItemStreamIt
 
     @Override
     protected void doOpen() {
-        // Nothing to do
+        setMaxItemCount(getTotalCount());
     }
 
     @Override
@@ -46,4 +45,6 @@ public abstract class AbstractReader<T> extends AbstractItemCountingItemStreamIt
     }
 
     protected abstract List<T> getItems(int offset, int limit);
+
+    protected abstract int getTotalCount();
 }
