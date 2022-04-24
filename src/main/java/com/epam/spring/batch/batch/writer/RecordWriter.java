@@ -1,6 +1,6 @@
-package com.techprimers.springbatchexample1.batch.writer;
+package com.epam.spring.batch.batch.writer;
 
-import com.techprimers.springbatchexample1.batch.model.Record;
+import com.epam.spring.batch.batch.model.Record;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.batch.item.ItemWriter;

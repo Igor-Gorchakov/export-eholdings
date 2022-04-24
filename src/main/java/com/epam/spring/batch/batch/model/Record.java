@@ -1,4 +1,4 @@
-package com.techprimers.springbatchexample1.batch.model;
+package com.epam.spring.batch.batch.model;
 
 public class Record {
     private int packageId;
