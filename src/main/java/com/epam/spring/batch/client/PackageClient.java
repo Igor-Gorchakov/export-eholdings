@@ -1,6 +1,6 @@
-package com.epam.spring.batch.batch.client;
+package com.epam.spring.batch.client;
 
-import com.epam.spring.batch.batch.model.Package;
+import com.epam.spring.batch.model.Package;
 
 public class PackageClient {
     public Package get() {

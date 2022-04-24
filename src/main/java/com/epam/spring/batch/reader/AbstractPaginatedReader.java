@@ -1,6 +1,6 @@
-package com.epam.spring.batch.batch.reader;
+package com.epam.spring.batch.reader;
 
-import com.epam.spring.batch.batch.Constants;
+import com.epam.spring.batch.Constants;
 import org.springframework.batch.item.support.AbstractItemCountingItemStreamItemReader;
 
 import java.util.List;

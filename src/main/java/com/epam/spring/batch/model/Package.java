@@ -1,4 +1,4 @@
-package com.epam.spring.batch.batch.model;
+package com.epam.spring.batch.model;
 
 public class Package {
     private int id;

@@ -1,10 +1,10 @@
-package com.epam.spring.batch.batch.reader;
+package com.epam.spring.batch.reader;
 
-import com.epam.spring.batch.batch.client.PackageClient;
-import com.epam.spring.batch.batch.client.TitleClient;
-import com.epam.spring.batch.batch.model.Record;
-import com.epam.spring.batch.batch.model.Package;
-import com.epam.spring.batch.batch.model.Title;
+import com.epam.spring.batch.client.PackageClient;
+import com.epam.spring.batch.client.TitleClient;
+import com.epam.spring.batch.model.Record;
+import com.epam.spring.batch.model.Package;
+import com.epam.spring.batch.model.Title;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.batch.core.StepExecution;
