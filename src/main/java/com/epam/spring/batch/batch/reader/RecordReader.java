@@ -1,11 +1,10 @@
-package com.techprimers.springbatchexample1.batch.reader;
+package com.epam.spring.batch.batch.reader;
 
-import com.techprimers.springbatchexample1.batch.client.PackageClient;
-import com.techprimers.springbatchexample1.batch.client.TitleClient;
-import com.techprimers.springbatchexample1.batch.model.Record;
-import com.techprimers.springbatchexample1.batch.model.Package;
-import com.techprimers.springbatchexample1.batch.model.Title;
-import com.techprimers.springbatchexample1.batch.processor.RecordProcessor;
+import com.epam.spring.batch.batch.client.PackageClient;
+import com.epam.spring.batch.batch.client.TitleClient;
+import com.epam.spring.batch.batch.model.Record;
+import com.epam.spring.batch.batch.model.Package;
+import com.epam.spring.batch.batch.model.Title;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.batch.core.StepExecution;

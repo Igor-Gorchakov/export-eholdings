@@ -1,6 +1,6 @@
-package com.techprimers.springbatchexample1.batch.reader;
+package com.epam.spring.batch.batch.reader;
 
-import com.techprimers.springbatchexample1.batch.Constants;
+import com.epam.spring.batch.batch.Constants;
 import org.springframework.batch.item.support.AbstractItemCountingItemStreamItemReader;
 
 import java.util.List;

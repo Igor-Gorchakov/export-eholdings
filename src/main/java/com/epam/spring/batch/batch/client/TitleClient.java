@@ -1,7 +1,7 @@
-package com.techprimers.springbatchexample1.batch.client;
+package com.epam.spring.batch.batch.client;
 
-import com.techprimers.springbatchexample1.batch.Constants;
-import com.techprimers.springbatchexample1.batch.model.Title;
+import com.epam.spring.batch.batch.Constants;
+import com.epam.spring.batch.batch.model.Title;
 
 import java.util.ArrayList;
 import java.util.List;
