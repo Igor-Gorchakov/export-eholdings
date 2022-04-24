@@ -1,6 +1,6 @@
-package com.epam.spring.batch.batch;
+package com.epam.spring.batch;
 
-import com.epam.spring.batch.batch.model.Record;
+import com.epam.spring.batch.model.Record;
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.Step;
 import org.springframework.batch.core.configuration.annotation.EnableBatchProcessing;

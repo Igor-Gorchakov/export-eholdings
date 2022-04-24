@@ -1,7 +1,7 @@
-package com.epam.spring.batch.batch.client;
+package com.epam.spring.batch.client;
 
-import com.epam.spring.batch.batch.Constants;
-import com.epam.spring.batch.batch.model.Title;
+import com.epam.spring.batch.Constants;
+import com.epam.spring.batch.model.Title;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.epam.spring.batch;
+package com.epam.spring;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,4 +1,4 @@
-package com.epam.spring.batch.batch;
+package com.epam.spring.batch;
 
 public interface Constants {
     int TOTAL_ITEM_COUNT = 100;
